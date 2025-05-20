@@ -20,7 +20,7 @@ This project uses Selenium Webdriver, TestNG and Java to automate the process of
 ...csv
 from,to
 Paddington station,Swindon
-Victoria station.Brighton
+Victoria station,Brighton
 
 How to run locally
 1. Clone the repo:
