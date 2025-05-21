@@ -11,7 +11,7 @@ public class GoogleMapsRoute {
   WebdriverWait wait;
   @BeforeClass
   public void setup() {
-    System.setProperty("webdriver.chrome.driver","path/to/chromedriver");
+    System.setProperty("webdriver.chrome.driver","C:/WebDriver/chromedriver.exe");
     driver = new ChromeDriver();
     wait = new WebDriverWait(driver,Duration.ofSeconds(20));
   }
